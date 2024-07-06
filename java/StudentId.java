@@ -5,12 +5,12 @@ class StudentId {
         //float or double
         String name;
         String email;
-        int MobileNumber;
+        long MobileNumber;
         // initialize 
         //indentifier = value for literal
         name = "Anushka Shrivastava";
         email = "anushkashrivastava29@gmail.com";
-        MobileNumber = 767649786 ;
+        MobileNumber = 7676497869L ;
         //printing variable output
         System.out.println("Name = " + name);
         System.out.println("Email = " + email);
