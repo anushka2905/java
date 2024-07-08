@@ -7,6 +7,15 @@
 import java.util.Scanner; 
 class UserInputOutput {
     public static void main(String[] args){
+        //step 3
         int number1;
+        double number2;
+        //step 4 Scanner class object declare and initalize
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name = scanner.next();
+        //next()
+        //nextLine();
+        System.out.println("Name = " + name);
     }
 }
