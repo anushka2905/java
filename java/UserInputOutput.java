@@ -12,7 +12,10 @@ class UserInputOutput {
         double number2;
         //step 4 Scanner class object declare and initalize
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your name");
+        System.out.println("Enter your age:");
+        String age = scanner.next();
+        System.out.println("Age = " + age);
+        System.out.println("Enter your name:");
         String name = scanner.next();
         //next()
         //nextLine();
