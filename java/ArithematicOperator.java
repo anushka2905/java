@@ -14,10 +14,12 @@
 
             double temp = 9.9;
             temp++;
-
+            char tempChar = 'A';
+            tempChar++;
             System.out.println("Num = " + num);
             System.out.println("Num 2 = " + num2);
             System.out.println("Temp = " + temp);
+            System.out.println("Temp char = " + tempChar);
 
         }
     
