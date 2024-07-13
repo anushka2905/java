@@ -1,11 +1,11 @@
-import java.util.scanner;
+import java.util.Scanner;
 class DemoIfStatement{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        int withdrawlAmount = scanner.nextInt();
+        int withdrawalAmount = scanner.nextInt();
         int balance = 5000;
-        if(withdrawalAmount <= balance){
-            System.out.printl("Withdrawal permitted");
+        if( withdrawalAmount <= balance){
+            System.out.println("Withdrawal permitted");
         }
         System.out.println("tysm");
     }
