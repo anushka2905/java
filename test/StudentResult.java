@@ -10,6 +10,7 @@
 import java.util.Scanner;
 class StudentResult {
     public static void main(String[] args){
+        // scanner class object initialized
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter marks of chemistry:");
         double chemistryMarks = scanner.nextDouble();
@@ -17,9 +18,11 @@ class StudentResult {
         double physicsMarks = scanner.nextDouble();
         System.out.println("Enter marks of maths:");
         double mathsMarks = scanner.nextDouble();
+        // calculate avg marks
         double avgMarks;
         avgMarks = (chemistryMarks + physicsMarks + mathsMarks)/ 3;
         System.out.println("avgMarks");
+        // conditional statement 
         if(avgMarks >= 90 && avgMarks <= 100){
             System.out.println("Congratulations your score is " + avgMarks + " You have scored grade A");
          }
