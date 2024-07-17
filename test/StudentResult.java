@@ -35,8 +35,5 @@ class StudentResult {
         else if(avgMarks >= 60 && avgMarks <= 0){
                 System.out.println("Congratulations your score is" + avgMarks + "You have scored grade d");
             }
-        else{
-                System.out.println("Invalid input");
-            }
     }
 }
