@@ -21,19 +21,23 @@ class StudentResult {
         // calculate avg marks
         double avgMarks;
         avgMarks = (chemistryMarks + physicsMarks + mathsMarks)/ 3;
-        System.out.println("avgMarks");
         // conditional statement 
         if(avgMarks >= 90 && avgMarks <= 100){
-            System.out.println("Congratulations your score is " + avgMarks + " You have scored grade A");
+            System.out.println("AvgMarks: " + avgMarks);
+            System.out.println("You have scored grade A");
          }
          else if(avgMarks >= 80 && avgMarks <= 90){
-            System.out.println("Congratulations your score is " + avgMarks + " You have scored grade B");
+            System.out.println("AvgMarks: " + avgMarks);
+            System.out.println("You have scored grade B");
          }
         else if(avgMarks >= 70 && avgMarks <= 80){
-                System.out.println("Congratulations your score is " + avgMarks + " You have scored grade C");
+                System.out.println("AvgMarks: " + avgMarks);
+                System.out.println("You have scored grade C");
             }
         else if(avgMarks >= 60 && avgMarks <= 0){
-                System.out.println("Congratulations your score is" + avgMarks + "You have scored grade d");
+                System.out.println("AvgMarks: " + avgMarks);
+                System.out.println("You have scored grade D");
+
             }
     }
 }
