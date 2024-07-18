@@ -1,9 +1,9 @@
-// wap to adcept marks of 3 subjects from user based on condition print the grade scored.
+// wap to accept marks of 3 subjects from user based on condition print the grade scored.
 // condition grade A if the percentage is above 90
 // grade B if percentage above 80
 // grade C if percentage above 70
 // grade D if percentage above 60
-// for all other percentages print npo grade allcated
+// for all other percentages print no grade allcated
 // programming instruction: use proper class name
 // use proper and meaning full names for variables
 // use proper spacing
@@ -22,22 +22,24 @@ class StudentResult {
         double avgMarks;
         avgMarks = (chemistryMarks + physicsMarks + mathsMarks)/ 3;
         // conditional statement 
-        if(avgMarks >= 90 && avgMarks <= 100){
+        if(avgMarks > 90 && avgMarks <= 100){
             System.out.println("AvgMarks: " + avgMarks);
             System.out.println("You have scored grade A");
          }
-         else if(avgMarks >= 80 && avgMarks <= 90){
+         else if(avgMarks > 80 && avgMarks <= 90){
             System.out.println("AvgMarks: " + avgMarks);
             System.out.println("You have scored grade B");
          }
-        else if(avgMarks >= 70 && avgMarks <= 80){
+        else if(avgMarks > 70 && avgMarks <= 80){
                 System.out.println("AvgMarks: " + avgMarks);
                 System.out.println("You have scored grade C");
-            }
-        else if(avgMarks >= 60 && avgMarks <= 0){
+        }
+        else if(avgMarks > 60 && avgMarks <= 70){
                 System.out.println("AvgMarks: " + avgMarks);
                 System.out.println("You have scored grade D");
-
-            }
+        }
+        else{
+            System.out.println("No result found");
+        }
     }
 }
