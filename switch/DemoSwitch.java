@@ -1,9 +1,9 @@
-package switch;
-
+//package switch;
+import java.util.Scanner;
 public class DemoSwitch {
     public static void main(String[] args){
         //WAP to print name of day when user entered week day
-        System.out.println("Select from b elow choice:");
+        System.out.println("Select from below choice:");
 
 
         System.out.println("press 1 for first day of the week");
