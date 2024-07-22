@@ -26,8 +26,15 @@ class StudentGrade {
                 System.out.println("AverageMarks: " + averageMarks);
                 System.out.println("You have scored grade C");
         }
-        double marksOfAnyoneSubject = scanner.nextDouble();
-       if (marksOfAnyoneSubject <= 32) {
+        else if (chemistryMarks <= 32) {
+            System.out.println("You have failed in one subject");
+            System.out.println("Grade cannot be printed");
+        }
+        else if (physicsMarks <= 32) {
+            System.out.println("You have failed in one subject");
+            System.out.println("Grade cannot be printed");
+        }
+        else if (mathematicsMarks <= 32) {
             System.out.println("You have failed in one subject");
             System.out.println("Grade cannot be printed");
         }
