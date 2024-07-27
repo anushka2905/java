@@ -7,7 +7,6 @@ class ArithmeticOperator {
         double circumference = scanner.nextDouble();
         double radius;
         radius = (circumference/2*3.14);
-
         System.out.println("Radius of circle : "+radius);
 
 
