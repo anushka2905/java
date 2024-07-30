@@ -18,7 +18,7 @@ import java.util.Scanner;
 
         switch (choice) {
             case 1:
-                performAddition(scanner);
+           double performAddition;
                 System.out.print("Enter first number: ");
                 double num1 = scanner.nextDouble();
                 System.out.print("Enter second number: ");
@@ -27,31 +27,31 @@ import java.util.Scanner;
                 System.out.println("Result: " + num1 + " + " + num2 + " = " + result);
                 break;
             case 2:
-                performSubtraction(scanner);
+               double performSubtraction;
                 System.out.print("Enter first number: ");
-                double num1 = scanner.nextDouble();
+                 num1 = scanner.nextDouble();
                 System.out.print("Enter second number: ");
-                double num2 = scanner.nextDouble();
-                double result = num1 - num2;
-                System.out.println("Result: " + num1 + " - " + num2 + " = " + result)
+                 num2 = scanner.nextDouble();
+                 result = num1 - num2;
+                System.out.println("Result: " + num1 + " - " + num2 + " = " + result);
                 break;
             case 3:
-                performMultiplication(scanner);
+               double performMultiplication;
                 System.out.print("Enter first number: ");
-                double num1 = scanner.nextDouble();
+                num1 = scanner.nextDouble();
                 System.out.print("Enter second number: ");
-                double num2 = scanner.nextDouble();
-                double result = num1 * num2;
+                 num2 = scanner.nextDouble();
+                 result = num1 * num2;
                 System.out.println("Result: " + num1 + " * " + num2 + " = " + result);
                 break;
             case 4:
-                performDivision(scanner);
+               double performDivision;
                 System.out.print("Enter first number: ");
-                double num1 = scanner.nextDouble();
+                 num1 = scanner.nextDouble();
                 System.out.print("Enter second number: ");
-                double num2 = scanner.nextDouble();
+                 num2 = scanner.nextDouble();
                 if (num2 != 0) {
-                    double result = num1 / num2;
+                  result = num1 / num2;
                     System.out.println("Result: " + num1 + " / " + num2 + " = " + result);
                 } else {
                     System.out.println("Error: Division by zero is not allowed.");
