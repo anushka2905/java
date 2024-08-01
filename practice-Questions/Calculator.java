@@ -42,6 +42,7 @@ import java.util.Scanner;
                 System.out.print("Enter second number: ");
                  num2 = scanner.nextDouble();
                  result = num1 * num2;
+                 
                 System.out.println("Result: " + num1 + " * " + num2 + " = " + result);
                 break;
             case 4:
