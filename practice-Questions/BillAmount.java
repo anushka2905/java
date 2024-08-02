@@ -14,6 +14,9 @@ class BillAmount{
             else if(billAmount < 2000) {
                 System.out.println("No discount");
             }
+
+
+            
         // if discount given
 
     }
