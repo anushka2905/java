@@ -6,7 +6,7 @@ public class EnterStudentResult {
         System.out.println("Enter number of students: ");
         int numberOfStudent = scanner.nextInt();
         scanner.nextLine();
-        int nextScore = 0;
+        int maxScore = 0;
       
         String maxScoreName = null;
 
@@ -15,7 +15,7 @@ public class EnterStudentResult {
             String name = scanner.nextLine();
             System.out.println("Enter marks of student: ");
             int score = scanner.nextInt();
-            int maxScore = scanner.nextInt();
+            
             if (score > maxScore){
                 maxScore = score;
                 maxScoreName = name;
@@ -23,7 +23,7 @@ public class EnterStudentResult {
             }
         } 
      System.out.println("maxScoreName = " + maxScoreName);
-
+        System.out.println("maxScore = " + maxScore);
         
 
 
