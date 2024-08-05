@@ -19,14 +19,10 @@ public class EnterStudentResult {
             if (score > maxScore){
                 maxScore = score;
                 maxScoreName = name;
-               
             }
         } 
      System.out.println("maxScoreName = " + maxScoreName);
         System.out.println("maxScore = " + maxScore);
-        
-
-
     }
 
 }
